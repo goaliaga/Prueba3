@@ -78,7 +78,7 @@ def imprimirCategoria(lista_libros):
             print(f"Categoria:{libros.categoria}")
             print(f"Autor:{libros.autor}")
     if flag == False:
-        print("Pais no encontrado")
+        print("Categoria no encontrada")
 def listadoInformes(lista_libros):
     print("Imprimir Informes")
     print("1) Imprimir por Pais")
