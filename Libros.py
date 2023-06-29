@@ -37,7 +37,7 @@ class Libros:
             return False
 
     def setApublicacion(self,apublicacion):
-        if apublicacion >= 1789 and apublicacion <= 2023:
+        if apublicacion >= 1780 and apublicacion <= 2023:
             self.a_publicacion = apublicacion
             return True
         else:
